@@ -7,10 +7,10 @@ import time
 browser = webdriver.Chrome()
 browser.get('http://www.facebook.com')
 elem = browser.find_element_by_tag_name('#email')
-elem.send_keys('9493083847')
+elem.send_keys('fb email')
 
 elem2 = browser.find_element_by_tag_name('#pass')
-elem2.send_keys('harsha@shm')
+elem2.send_keys('fb password')
 elem2.submit()
 
 wait = ui.WebDriverWait(browser, 10)
