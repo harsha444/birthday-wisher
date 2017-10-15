@@ -4,23 +4,48 @@ from selenium import webdriver
 import selenium.webdriver.support.ui as ui
 import time
 
-browser = webdriver.Chrome()
-browser.get('http://www.facebook.com')
-elem = browser.find_element_by_tag_name('#email')
-elem.send_keys('fb email')
 
-elem2 = browser.find_element_by_tag_name('#pass')
-elem2.send_keys('fb password')
-elem2.submit()
+def browser_connect():
+    browser = webdriver.Firefox()
+    browser.get('http://www.facebook.com')
+    return browser
 
-wait = ui.WebDriverWait(browser, 10)
 
-results = wait.until(lambda browser: browser.find_element_by_css_selector('#navItem_2344061033'))
-results.click()
+def check_notification():
+    wait = ui.WebDriverWait(browser, 10)
+    noti_res = wait.until(lambda browser: browser.find_element_by_css_selector('.layerCancel'))
 
-wait = ui.WebDriverWait(browser, 10)
-results = wait.until(lambda browser: browser.find_element_by_css_selector('div._2yaa:nth-child(3) > a:nth-child(1) > span:nth-child(1)'))
-results.click()
+    if noti_res:
+        noti_res.click()
+
+def authenticate():
+    elem = browser.find_element_by_tag_name('#email')
+    # Asking for user email or phone number
+    elem.send_keys('your fb id')
+    # ASking for password
+    elem2 = browser.find_element_by_tag_name('#pass')
+    elem2.send_keys('your password')
+    elem2.submit()
+
+
+def find_events_bar():
+    wait = ui.WebDriverWait(browser, 10)
+    results = wait.until(lambda browser: browser.find_element_by_css_selector('#navItem_2344061033'))
+    results.click()
+
+def find_birthday_bar():
+    wait = ui.WebDriverWait(browser, 10)
+    results = wait.until(lambda browser: browser.find_element_by_css_selector('div._2yaa:nth-child(3) > a:nth-child(1) > span:nth-child(1)'))
+    results.click()
+
+browser = browser_connect()
+authenticate()
+find_events_bar()
+
+check_notification()
+
+find_birthday_bar()
+
 
 
 wait = ui.WebDriverWait(browser, 10)
@@ -33,8 +58,8 @@ if results:
     while(wish):
         wish1 = wish.find_element_by_xpath(".//textarea")
         if(wish1):
-            wish1.send_keys("Happy b'day ra..!!")
-            wish1.submit()
+            wish1.send_keys("Happy b'day..!!")
+            #wish1.submit()
             time.sleep(3)
         i=i+1
         wish = results.find_element_by_xpath("//*[@id='birthdays_content']/div[1]/div[2]/ul/li["+str(i)+"]");
