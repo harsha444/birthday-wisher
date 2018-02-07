@@ -3918,3 +3918,1510 @@ fixme:ntdll:EtwEventUnregister (deadbeef) stub.
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508740154282	geckodriver	INFO	geckodriver 0.18.0
+1508740154301	geckodriver	INFO	Listening on 127.0.0.1:47462
+1508740155448	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740158875	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740160579	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740183542	Marionette	INFO	Listening on port 38639
+1508740183668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740183702	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740183720	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740185541	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740185542	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740187921	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740197538	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508740317888	geckodriver	INFO	geckodriver 0.18.0
+1508740317891	geckodriver	INFO	Listening on 127.0.0.1:40593
+1508740318983	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740319164	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740319683	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740328671	Marionette	INFO	Listening on port 46421
+1508740328807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740328864	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740328891	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740330689	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740330689	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740331597	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740332759	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508740335629	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508740336317	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508740336325	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508740336702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508740336703	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508740339000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508740340416	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508740341923	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1508740342305	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508740342709	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740343037	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740345729	Marionette	INFO	New connections will no longer be accepted
+[Child 17645] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+[Child 17645] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17645] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508740669429	geckodriver	INFO	geckodriver 0.18.0
+1508740669431	geckodriver	INFO	Listening on 127.0.0.1:47080
+1508740670563	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740670744	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740671341	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740685577	Marionette	INFO	Listening on port 33636
+1508740685605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740685658	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740685694	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740687595	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740687595	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740698234	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740709839	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1508740709957	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508740756198	geckodriver	INFO	geckodriver 0.18.0
+1508740756201	geckodriver	INFO	Listening on 127.0.0.1:36349
+1508740757297	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740757483	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740758048	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740767331	Marionette	INFO	Listening on port 36433
+1508740767467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740767513	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740767543	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740770021	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740770021	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740779911	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740795921	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508740813083	geckodriver	INFO	geckodriver 0.18.0
+1508740813085	geckodriver	INFO	Listening on 127.0.0.1:52792
+1508740814173	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740814369	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740814937	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740824069	Marionette	INFO	Listening on port 43960
+1508740824124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740824176	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740824209	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740825928	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740825928	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740826838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740828078	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508740830643	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508740831388	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508740831390	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508740831971	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508740831972	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508740833859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508740835227	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508740836393	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1508740836477	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508740836883	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740837661	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740840297	Marionette	INFO	New connections will no longer be accepted
+[Child 19155] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19155] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19155] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+err:ntdll:RtlLeaveCriticalSection section 0x110d18 is not acquired
+1508740866374	geckodriver	INFO	geckodriver 0.18.0
+1508740866377	geckodriver	INFO	Listening on 127.0.0.1:54891
+1508740867474	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508740867657	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508740868201	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508740877387	Marionette	INFO	Listening on port 43887
+1508740877490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508740877549	Marionette	DEBUG	Register listener.js for window 2147483649
+1508740877588	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508740879421	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508740879421	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508740880356	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508740882518	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508740885671	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508740886421	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508740886424	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508740886754	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508740886754	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508740888968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508740890669	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508740891909	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508740892246	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740892811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508740896074	Marionette	INFO	New connections will no longer be accepted
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508741111781	geckodriver	INFO	geckodriver 0.18.0
+1508741111783	geckodriver	INFO	Listening on 127.0.0.1:59502
+1508741112931	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508741113115	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508741113744	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508741124266	Marionette	INFO	Listening on port 39480
+1508741124411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508741124463	Marionette	DEBUG	Register listener.js for window 2147483649
+1508741124482	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508741126785	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508741126785	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508741129766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508741131830	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508741137875	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508741143072	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741150873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741150916	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/events/"
+1508741151537	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/events/"
+1508741151541	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/events/"
+1508741151898	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1508741151898	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1508741151898	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508741151899	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1508741154523	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/birthdays/"
+1508741155018	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/birthdays/"
+1508741157087	Marionette	INFO	New connections will no longer be accepted
+[Child 19807] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19807] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19807] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508741442147	geckodriver	INFO	geckodriver 0.18.0
+1508741442150	geckodriver	INFO	Listening on 127.0.0.1:45826
+1508741443238	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508741443427	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508741443962	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508741454198	Marionette	INFO	Listening on port 43600
+1508741454275	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508741454328	Marionette	DEBUG	Register listener.js for window 2147483649
+1508741454346	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508741456088	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508741456089	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508741457250	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508741458403	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508741462667	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508741464205	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508741464208	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508741464548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508741464548	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508741466430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508741467506	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508741469097	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1508741472667	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508741473077	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741473330	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741477493	Marionette	INFO	New connections will no longer be accepted
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+[Child 20205] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1508741632022	geckodriver	INFO	geckodriver 0.18.0
+1508741632025	geckodriver	INFO	Listening on 127.0.0.1:57479
+1508741633153	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508741633340	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508741633897	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508741642934	Marionette	INFO	Listening on port 35051
+1508741643049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508741643102	Marionette	DEBUG	Register listener.js for window 2147483649
+1508741643128	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508741645901	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508741645901	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508741646814	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508741647957	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508741650504	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508741651246	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508741651248	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508741651594	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508741651594	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508741653745	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508741655342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508741656812	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508741657234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741657642	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508741660255	Marionette	INFO	New connections will no longer be accepted
+[Child 20550] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20550] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20550] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508757795615	geckodriver	INFO	geckodriver 0.18.0
+1508757795617	geckodriver	INFO	Listening on 127.0.0.1:58747
+1508757796710	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508757796947	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508757797567	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508757808354	Marionette	INFO	Listening on port 41085
+1508757808512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508757808557	Marionette	DEBUG	Register listener.js for window 2147483649
+1508757808586	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508757810342	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508757810342	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508757811453	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508757813973	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508757824052	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508757829197	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508758057034	geckodriver	INFO	geckodriver 0.18.0
+1508758057036	geckodriver	INFO	Listening on 127.0.0.1:39651
+1508758058154	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508758058335	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508758058889	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508758068061	Marionette	INFO	Listening on port 41811
+1508758068089	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508758068127	Marionette	DEBUG	Register listener.js for window 2147483649
+1508758068211	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508758070008	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508758070008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508758071201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508758072689	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508758075724	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1508758077260	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508758077267	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508758077621	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1508758077621	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1508758077622	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508758077622	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1508758077622	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508758080370	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508758082254	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483677"
+1508758083474	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1508758083986	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508758084417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508758084815	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508758087849	Marionette	INFO	New connections will no longer be accepted
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1508947635617	geckodriver	INFO	geckodriver 0.18.0
+1508947635656	geckodriver	INFO	Listening on 127.0.0.1:59265
+1508947636838	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1508947640075	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1508947641901	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Vendor: Intel Open Source Technology Center
+[PIPELIGHT:WIN:silverlight5.1] OpenGL Renderer: Mesa DRI Intel(R) Haswell Mobile x86/MMX/SSE2
+[PIPELIGHT:WIN:silverlight5.1] Your GPU is in the whitelist, hardware acceleration should work.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+[PIPELIGHT:LIN:flash] basicplugin.c:303:checkPluginInstallation(): Plugin installer did not run correctly (exitcode = 1).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1508947681462	Marionette	INFO	Listening on port 45816
+1508947681589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508947681620	Marionette	DEBUG	Register listener.js for window 2147483649
+1508947681663	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508947686622	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508947686622	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508947689477	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1508947692562	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1508947697250	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1508947698421	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1508947698422	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1508947699029	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1508947699030	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1508947700766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/"
+1508947703662	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1508947707343	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1508947707714	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508947708130	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508947710368	Marionette	INFO	New connections will no longer be accepted
+[Child 31979] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 31979] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 31979] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-l1g98U/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1515236939107	geckodriver	INFO	geckodriver 0.18.0
+1515236939128	geckodriver	INFO	Listening on 127.0.0.1:50526
+1515236940235	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1515236941027	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:LIN:widevine] common.c:162:receiveCommand(): unable to receive data within the specified timeout.
+[PIPELIGHT:LIN:widevine] basicplugin.c:128:attach(): error during the initialization of the wine process - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:LIN:silverlight5.1] common.c:162:receiveCommand(): unable to receive data within the specified timeout.
+[PIPELIGHT:LIN:silverlight5.1] basicplugin.c:128:attach(): error during the initialization of the wine process - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[PIPELIGHT:LIN:flash] basicplugin.c:299:checkPluginInstallation(): Plugin installer did not run correctly (error occured).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+1515236951873	Marionette	INFO	Listening on port 44228
+1515236952003	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515236952054	Marionette	DEBUG	Register listener.js for window 2147483649
+1515236952125	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+1515236954297	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515236954298	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+1515236957353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1515236964654	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1515236970073	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1515236972389	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1515236972391	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1515236974359	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1515236974360	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1515236974399	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/events/?acontext=%7B%22ref%22%3A46%2C%22action_history%22%3A%22null%22%7D"
+1515236975092	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1515236978563	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1515236996000	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/events/"
+1515236996299	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1515236996550	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+1517991942936	geckodriver	INFO	geckodriver 0.18.0
+1517991942957	geckodriver	INFO	Listening on 127.0.0.1:35719
+1517991944105	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1517991945027	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+fixme:winediag:start_process Wine Staging 2.4 is a testing version containing experimental patches.
+fixme:winediag:start_process Please mention your exact version when filing bug reports on winehq.org.
+wine: cannot find L"C:\\windows\\system32\\winemenubuilder.exe"
+err:wineboot:ProcessRunKeys Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2)
+[PIPELIGHT:WIN:widevine] embedded mode         is on.
+[PIPELIGHT:WIN:widevine] windowless mode       is off.
+[PIPELIGHT:WIN:widevine] linux windowless mode is off.
+[PIPELIGHT:WIN:widevine] force SetWindow       is on.
+[PIPELIGHT:WIN:widevine] window class hook     is off.
+[PIPELIGHT:WIN:widevine] strict draw ordering  is off.
+[PIPELIGHT:LIN:widevine] common.c:162:receiveCommand(): unable to receive data within the specified timeout.
+[PIPELIGHT:LIN:widevine] basicplugin.c:128:attach(): error during the initialization of the wine process - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[PIPELIGHT:WIN:silverlight5.1] embedded mode         is on.
+[PIPELIGHT:WIN:silverlight5.1] windowless mode       is off.
+[PIPELIGHT:WIN:silverlight5.1] linux windowless mode is off.
+[PIPELIGHT:WIN:silverlight5.1] force SetWindow       is off.
+[PIPELIGHT:WIN:silverlight5.1] window class hook     is on.
+[PIPELIGHT:WIN:silverlight5.1] strict draw ordering  is off.
+[PIPELIGHT:LIN:silverlight5.1] common.c:162:receiveCommand(): unable to receive data within the specified timeout.
+[PIPELIGHT:LIN:silverlight5.1] basicplugin.c:128:attach(): error during the initialization of the wine process - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[install-dependency] Downloading and running wine-flash-installer.
+[PIPELIGHT:LIN:flash] basicplugin.c:299:checkPluginInstallation(): Plugin installer did not run correctly (error occured).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1517991955243	Marionette	INFO	Listening on port 46280
+1517991955387	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExA.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function CreateWindowExW.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:silverlight5.1] replaced API function TrackPopupMenu.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenuEx.
+[PIPELIGHT:WIN:widevine] replaced API function TrackPopupMenu.
+fixme:ntdll:EtwEventRegister ({aa087e0e-0b35-4e28-8f3a-440c3f51eef1}, 0x7b8d21a4, 0x7b970120, 0x7b975150) stub.
+[PIPELIGHT:WIN:silverlight5.1] init successful!
+WVMK NP_Initialize
+[PIPELIGHT:WIN:widevine] init successful!
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1517992041178	geckodriver	INFO	geckodriver 0.18.0
+1517992041181	geckodriver	INFO	Listening on 127.0.0.1:56680
+1517992042280	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1517992043086	Marionette	INFO	Enabled via --marionette
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_WIDEVINE_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-widevine.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-widevine'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:widevine] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:widevine] checking plugin installation - this might take some time.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[PIPELIGHT:LIN:widevine] basicplugin.c:299:checkPluginInstallation(): Plugin installer did not run correctly (error occured).
+[PIPELIGHT:LIN:widevine] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_SILVERLIGHT5_1_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-silverlight5.1.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-silverlight5.1'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:silverlight5.1] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:silverlight5.1] checking plugin installation - this might take some time.
+[PIPELIGHT:LIN:silverlight5.1] basicplugin.c:299:checkPluginInstallation(): Plugin installer did not run correctly (error occured).
+[PIPELIGHT:LIN:silverlight5.1] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+[PIPELIGHT:LIN:unknown] attached to process.
+[PIPELIGHT:LIN:unknown] checking environment variable PIPELIGHT_FLASH_CONFIG.
+[PIPELIGHT:LIN:unknown] searching for config file pipelight-flash.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/home/harsha/.config/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/etc/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] trying to load config file from '/usr/share/pipelight/configs/pipelight-flash'.
+[PIPELIGHT:LIN:unknown] sandbox not found or not installed!
+[PIPELIGHT:LIN:flash] using wine prefix directory /home/harsha/.wine-pipelight.
+[PIPELIGHT:LIN:flash] checking plugin installation - this might take some time.
+[PIPELIGHT:LIN:flash] basicplugin.c:299:checkPluginInstallation(): Plugin installer did not run correctly (error occured).
+[PIPELIGHT:LIN:flash] basicplugin.c:116:attach(): plugin not correctly installed - aborting.
+1517992051069	Marionette	INFO	Listening on port 45586
+1517992051101	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[Child 23083, Chrome_ChildThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 23083, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 23083, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-ox8TnP/firefox-58.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.
+fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+[install-dependency] wine-widevine-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-silverlight5.1-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] wine-mpg2splt-installer is already installed in '/home/harsha/.wine-pipelight'.
+[install-dependency] Downloading and running wine-flash-installer.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[install-dependency] ERROR: Downloading of wine-flash-installer failed multiple times. Please check:
+[install-dependency]
+[install-dependency]        * that your internet connection is working properly
+[install-dependency]
+[install-dependency]        * and that the plugin database is up-to-date. To update it just run:
+[install-dependency]            sudo pipelight-plugin --update
+[install-dependency]
+[install-dependency]        If this doesn't help then most-likely the download URLs or checksums
+[install-dependency]        have changed. We recommend to open a bug-report in this case.
+[install-dependency] ERROR: Download of wine-flash-installer failed.

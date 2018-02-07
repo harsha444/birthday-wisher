@@ -22,10 +22,10 @@ def check_notification():
 def authenticate():
     elem = browser.find_element_by_tag_name('#email')
     # Asking for user email or phone number
-    elem.send_keys('your fb_id(email or phone)')
+    elem.send_keys('<Your Facebook ID/Mobile number here>')
     # ASking for password
     elem2 = browser.find_element_by_tag_name('#pass')
-    elem2.send_keys('your password')
+    elem2.send_keys('<Your password here>')
     elem2.submit()
 
 
