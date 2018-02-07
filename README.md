@@ -1,7 +1,8 @@
 # birthday-wisher
 A python-selenium script which wishes your friends on facebook with birthday on that particular day with a happy birthday
 
-#USAGE
+# USAGE
+
 You must have python2 and mozilla firefox pre-installed for this code to work
 
 Use "git clone https://github.com/harsha444/birthday-wisher/" to clone the repository to your local machine
